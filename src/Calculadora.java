@@ -30,4 +30,8 @@ public class Calculadora {
         if(num2==0) throw new ArithmeticException("NO PUEDES DIVIDIR POR 0");
         return num1/num2;
     }
+    
+    public int potencia(int base,int exponente){
+        return (int)Math.pow(base,exponente);
+    }
 }
